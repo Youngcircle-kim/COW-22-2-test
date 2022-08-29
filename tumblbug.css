@@ -1,0 +1,683 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+header .first {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 240px;
+  padding-top: 30px;
+}
+header .first .first_projectandlogin {
+  display: flex;
+  position: relative;
+  padding-right: 20px;
+  left: 100px;
+}
+header .first .first_logo img{
+  max-width: 185px;
+}
+header .first .first_projectandlogin .login button {
+  width: 200px;
+  height: 55px;
+  border-radius: 6px;
+  background-color: white;
+  border-color: lightgray;
+  font-size: 16px;
+}
+header .first .first_projectandlogin .project {
+  padding-top: 16px;
+}
+header .first .first_projectandlogin .project a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: bolder;
+  padding-right: 10px;
+  width: 200px;
+}
+header .second {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 325px;
+
+}
+.fixed {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 6px lightgrey;
+  top: 0;
+  z-index: 999;
+}
+
+header .second .list .second_action {
+  display: flex;
+}
+
+
+header .second .list .second_action button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  padding: 0px 10px;
+  margin: 0px 8px;
+}
+header .second .list .second_action button i {
+  position: relative;
+  right: 12px;
+}
+header .second .list .second_action button:hover {
+  color: orangered;
+}
+header .second .search {
+  position: relative;
+  bottom: 10px;
+}
+header .second .search button {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(243, 243, 243);
+  border-radius: 6px;
+  width: 280px;
+  height: 45px;
+  margin-right: 15px;
+  border: none;
+  color: grey;
+}
+header .second .search i {
+  padding-top: 13px;
+  font-size: 25px;
+  color: black;
+}
+header .second .search p {
+  font-size: 16px;
+  padding-top: 13px;
+}
+hr {
+  position: relative;
+  bottom: 30px; 
+}
+.banner {
+  position: relative;
+  top: 48px;
+  left: 205px;
+  border-color: black;
+  background-color: gray;
+  height: 380px;
+  width: 50%;
+}
+.notable {
+  position: relative;
+  left: 210px;
+  width: 50%;
+  top: 130px;
+}
+.notable .title {
+  display: flex;
+  font-size: 26px;
+  position: relative;
+  bottom: 25px;
+  letter-spacing: 0px;
+  word-spacing: small;
+}
+.list .item {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 15px 0px 0px;
+}
+.list {
+  float: left;
+  display: flex;
+}
+.list button {
+  max-width: 240px;
+  max-height: 200px;
+  border: 1px;
+}
+.list .item img {
+  max-width: 165px;
+  max-height: 200px;
+  border: 1px;
+  border-color: none;
+}
+.list .item .href {
+  display: flex;
+  padding:15px 5px 5px 0px;
+  color: lightgray;
+}
+.list .item .href a {
+  color: gray;
+  text-decoration: none;
+  font-size: 15px;
+}
+.list .name {
+  font-size: 15px;
+}
+.list .item .href p {
+  padding: 0px 5px;
+}
+.list .item .href a:hover {
+  text-decoration: underline;
+}
+.list .item .percentage {
+  color: red;
+  padding:10px 0px ;
+}
+.notable2 {
+  position: absolute;
+  right: 550px;
+  top: 1100px;
+  left: 180px;
+}
+
+.notable2 .item {
+  padding: 0px 15px 0px 0px;
+}
+.popular {
+  position: relative;
+  bottom: 370px;
+  float: right;
+  width: 500px;
+  height: 900px;
+  padding-right: 105px;
+}
+.popular .title {
+  display: flex;
+  justify-content: space-between;
+}
+.popular .title .project {
+  font-size: 25px;
+  font-weight: bolder;
+  padding-bottom: 8px;
+}
+.popular .title .project a {
+  text-decoration: none;
+  color: black ;
+}
+.popular .title .all a {
+  text-decoration: none;
+  color: gray;
+  font-size: 18px;
+}
+.popular .date {
+  word-spacing: 0px;
+  font-size: small;
+  padding-bottom: 30px;
+}
+.popular .list2 .item2 {
+  display: flex;
+  padding-bottom: 15px;
+}
+.list2 .item2 .img2 img {
+  max-width: 130px;
+  max-height: 140px;
+}
+.list2 .item2 button {
+  width: 130px;
+  height: 100px;
+}
+.class {
+  
+}
+.list2 .item2 .text {
+  display: flex;
+  flex-direction: column;
+}
+.list2 .item2 .number {
+  font-size: 20px;
+  padding: 0px 20px;
+}
+.list2 .item2 .text .href {
+  display: flex;
+}
+.list2 .item2 .href p {
+  padding: 0px 5px;
+}
+.list2 .item2 .href a {
+  color: gray;
+  text-decoration: none;
+  font-size: 15px;
+}
+.list2 .name {
+  font-size: 17px;
+}
+.list2 .item2 .percentage {
+  color: red;
+  padding:10px 0px ;
+}
+.list2 .item2 .text .href a:hover {
+  text-decoration: underline;
+}
+footer{
+  width: 100%; 
+  height: 300px;
+  overflow: hidden; 
+  bottom:-200px; 
+  position: relative;
+
+  flex-direction: column;
+  box-shadow: 0px 0px 1px black;
+} 
+
+
+.footerWrapper{
+  width: 80%;
+  height: 200px;
+  position: relative;
+
+  left: 152px;
+  padding: 0px 40px;
+}
+.footerFirst{
+  width: 50%;
+  height: 200px;
+  position: relative;
+
+  right: -40px;
+}
+footer .footerWrapper .footerFirst .first{
+  width: 25%;
+  height: 200px;
+  position: relative;
+
+}
+footer .footerWrapper .footerFirst .first  .one{
+  font-weight: bold;
+  display : flex;
+  height: 20%;
+  justify-content : center;
+}
+footer .footerWrapper .footerFirst .first .two{  
+  display : flex;
+  font-weight: 100;
+  height: 20%;
+  justify-content : center;
+}
+footer .footerWrapper .footerFirst .first .three{  
+  display : flex;
+  font-weight: 100;
+  height: 20%;
+  justify-content : center;
+}
+footer .footerWrapper .footerFirst .first .four{  
+  display : flex;
+  font-weight: 100;
+  height: 20%;
+  justify-content : center;
+}
+footer .footerWrapper .footerFirst .first .five{  
+  display : flex;
+  font-weight: 100;
+  height: 20%;
+  justify-content : center;
+}
+footer .footerWrapper .footerFirst .first  .two:hover{
+  color: orangered;
+}
+footer .footerWrapper .footerFirst .first  .three:hover{
+  color: orangered;
+}footer .footerWrapper .footerFirst .first  .four:hover{
+  color: orangered;
+}footer .footerWrapper .footerFirst .first  .five:hover{
+  color: orangered;
+}
+footer .footerWrapper .footerFirst .second{
+  width: 25%;
+  height: 200px;
+  position: relative;
+  left: 25%;
+  bottom: 200px
+}
+footer .footerWrapper .footerFirst .second .one{
+  font-weight: bold;
+  display : flex;
+  height: 20%;
+  justify-content : center;
+}
+footer .footerWrapper .footerFirst .second .two{
+  font-weight: 100;
+  display : flex;
+  height: 20%;
+  justify-content : center;
+}
+footer .footerWrapper .footerFirst .second .three{
+  font-weight: 100;
+  display : flex;
+  height: 20%;
+  justify-content : center;
+}
+footer .footerWrapper .footerFirst .second .four{
+  font-weight: 100;
+  display : flex;
+  height: 20%;
+  justify-content : center;
+}
+footer .footerWrapper .footerFirst .second .five{
+  font-weight: 100;
+  display : flex;
+  height: 20%;
+  justify-content : center;
+}
+footer .footerWrapper .footerFirst .third  .two:hover{
+  color: orangered;
+}
+footer .footerWrapper .footerFirst .second  .three:hover{
+  color: orangered;
+}
+footer .footerWrapper .footerFirst .second  .four:hover{
+  color: orangered;
+}
+footer .footerWrapper .footerFirst .second  .five:hover{
+  color: orangered;
+}
+footer .footerWrapper .footerFirst .third{
+  width: 25%;
+  height: 200px;
+  position: relative;
+  left: 50%;
+  bottom: 400px
+}
+footer .footerWrapper .footerFirst .third .one{
+  font-weight: bold;
+  display : flex;
+  height: 20%;
+  justify-content : center;
+}
+footer .footerWrapper .footerFirst .third .two{
+  font-weight: 100;
+  display : flex;
+  height: 20%;
+  justify-content : center;
+}
+footer .footerWrapper .footerFirst .third .three{
+  font-weight: 100;
+  display : flex;
+  height: 20%;
+  justify-content : center;
+}
+footer .footerWrapper .footerFirst .third .four{
+  font-weight: 100;
+  display : flex;
+  height: 20%;
+  justify-content : center;
+}
+footer .footerWrapper .footerFirst .third  .two:hover{
+  color: orangered;
+}
+footer .footerWrapper .footerFirst .third  .three:hover{
+  color: orangered;
+}
+footer .footerWrapper .footerFirst .third  .four:hover{
+  color: orangered;
+}
+footer .footerWrapper .footerFirst .forth{
+  width: 25%;
+  height: 200px;
+  position: relative;
+  left: 75%;
+  bottom: 600px
+}
+footer .footerWrapper .footerFirst .forth .one{
+  font-weight: bold;
+  display : flex;
+  height: 20%;
+  justify-content : center;
+}
+footer .footerWrapper .footerFirst .forth .two{
+  width: 100%;
+  height: 30%;
+  background-color: darkgrey;
+  border-radius: 40px 40px 40px 40px;
+}
+footer .footerWrapper .footerFirst .forth .three{
+  width: 100%;
+  height: 30%;
+  background-color: darkgrey;
+  border-radius: 40px 40px 40px 40px;
+  position: relative;
+  top: 10px;
+}
+footer .footerWrapper .footerFirst .forth .two .androidImage{
+  width: 50px;
+  height: 50px;
+  display : flex;
+  justify-content : center;
+  position:relative;
+  left: 10px;
+  top: 4px;
+}
+footer .footerWrapper .footerFirst .forth .two .android{
+  font-size: 15px;
+  display : flex;
+  justify-content : center;
+  position: relative;
+  bottom: 30px;
+  left: 25px;
+}
+footer .footerWrapper .footerFirst .forth .three .appleImage{
+  width: 50px;
+  height: 50px;
+  display : flex;
+  justify-content : center;
+  position:relative;
+  left: 10px;
+  top: 4px;
+}
+footer .footerWrapper .footerFirst .forth .three .apple{
+  font-size: 15px;
+  display : flex;
+  justify-content : center;
+  position: relative;
+  bottom: 30px;
+  left: 25px;
+}
+footer .footerWrapper .footerFirst .as{
+  width: 30%;
+  height: 200px;
+  position: relative;
+  bottom: 800px;
+  left: 860px;
+}
+footer .footerWrapper .footerFirst .as .title{
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  display: flex;
+  height: 30px;
+  padding-top: 5px; 
+}
+footer .footerWrapper .footerFirst .as .explain{
+  font-size: 12px;
+  font-weight: 100;
+  position: relative;
+  display: flex;
+  height: 30px;
+  width: 260px;
+}
+footer .footerWrapper .footerFirst .as .button{
+  line-height: 95px;
+  width: 150px;
+  height: 100px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  box-shadow: 0px 0px 1px black;
+  border-radius: 20px 20px 20px 20px;
+  background-color: darkgrey;
+}
+footer .footerWrapper .footerFirst .as .button:hover{
+  background: darkgray;
+  color: black;
+  border:3px solid black;
+
+}
+footer .footer-lower .text{
+  width: 70%;
+  height: 50px;
+  font-size: 4px;
+  position: relative;
+  left: 250px;
+}
+footer .footer-lower .text .corp{
+  width: 110px;
+  height: 3px;
+  position: relative;
+  bottom: 6px;
+  text-align: left;
+  font-size: 11px;
+}
+footer .footer-lower .text .address{
+  width: 300px;
+  height: 3px;
+  font-size: 11px;
+  position: relative;
+  left: 130px;
+  bottom: 8px;
+}
+footer .footer-lower .text .ceo{
+  width: 60px;
+  height: 3px;
+  font-size: 11px;
+  position: relative;
+  bottom: 11px;
+  left: 450px;
+
+}
+footer .footer-lower .text .number{
+  width: 160px;
+  height: 3px;
+  font-size: 11px;
+  position: relative;
+  bottom: 14px;
+  left: 550px;
+}
+footer .footer-lower .text .police{
+  width: 300px;
+  height: 3px;
+  font-size: 11px;
+  position: relative;
+
+}
+footer .footer-lower .text .secondNumber{
+  width: 170px;
+  height: 3px;
+  font-size: 11px;
+  position: relative;
+  bottom: 2px;
+  left: 260px;
+}
+footer .footer-lower .text  .final{
+  width: 140px;  
+  height: 3px;
+  font-size: 11px;
+  position: relative;
+  top: 9px;
+}
+footer .footer-lower .sns  .kakao{
+  border-radius: 50%;
+  border: 3px lightgray;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  bottom: 59px;
+  left: 1100px;
+}
+footer .footer-lower .sns  .facebook{
+  border-radius: 50%;
+  border: 3px lightgray;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  bottom: 89px;
+  left: 1160px;
+}
+footer .footer-lower .sns  .twiter{
+  border-radius: 50%;
+  border: 3px lightgray;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  bottom: 119px;
+  left: 1222px;
+}
+footer .footer-lower .sns  .instagram{
+  border-radius: 50%;
+  border: 3px lightgray;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  bottom: 149px;
+  left: 1038px;
+}
+footer .footer-lower .sns  .naver{
+  border-radius: 50%;
+  border: 3px lightgray;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  bottom: 179px;
+  left: 1284px;
+}
+footer .footer-lower .sns .brunch{
+  border-radius: 50%;
+  border: 3px lightgray;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  bottom: 209px;
+  left: 1349px;
+}
+footer .footer-lower .sns  .kakao:hover{
+  background: darkgray;
+  color: black;
+  border: 3px black;
+}
+footer .footer-lower .sns  .facebook:hover{
+  background: darkgray;
+  color: black;
+  border:3px black;
+}
+footer .footer-lower .sns  .twiter:hover{
+  background: darkgray;
+  color: black;
+  border:3px black;
+}
+footer .footer-lower .sns  .instagram:hover{
+  background: darkgray;
+  color: black;
+  border:3px black;
+}
+footer .footer-lower .sns  .naver:hover{
+  background: darkgray;
+  color: black;
+  border:3px black;
+}
+footer .footer-lower .sns .brunch:hover{
+  background: darkgray;
+  color: black;
+  border:3px black;
+}
+footer .floor{
+  width: 100%;
+  height: 100%;
+  font-size: 11px;
+  background-color: darkgray;
+  position: relative;
+  display: flex;
+  bottom :200px;
+}
+footer .floor .last{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: top;
+  position: relative;
+  left: 350px;
+  z-index: 999;
+  font-size: 13px;
+}
